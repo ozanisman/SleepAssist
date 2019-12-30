@@ -1,0 +1,44 @@
+body {
+    min-width: 600px;
+    max-width: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    position: relative;
+    vertical-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    table-layout:fixed;
+    padding: 10px;
+    width: 100%;
+}
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.current {
+    height: 23px;
+    width: 95px;
+    outline: none;
+}
+.go {
+    height: 23px;
+    width: 40px;
+    outline: none;
+}
+.center {
+
+}
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.boxed {
+    border: 2px solid black ;
+    vertical-align: center;
+    text-align: center;
+    width:470px;
+}

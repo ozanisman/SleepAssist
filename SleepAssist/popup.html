@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <b>What time do you want to go to sleep?</b>
+        <input id="sleep" type="time" value="23:00" />
+        <button id="current" class="current">Current Time</button>
+        <button id="goSleep" class="go">Go</button>
+        <p>
+            <b>OR</b>
+        </p>
+        <b>What time do you want to wake up?</b>
+        <input id="wake" type="time" value="08:00"/>
+        <button id="goWake" class="go">Go</button>
+        <br>
+        <br>
+        <br>
+        <p>
+            <b id="instructions">&nbsp;</b>
+            <table>
+                <tr>
+                    <th id="cycles1">- - : - -</th>
+                    <th id="cycles2">- - : - -</th>
+                    <th id="cycles3">- - : - -</th>
+                </tr>
+                <tr>
+                    <th id="cycles4">- - : - -</th>
+                    <th id="cycles5">- - : - -</th>
+                    <th id="cycles6">- - : - -</th>
+                </tr>
+            </table>
+        </p>
+        <br>
+        <div>
+            <p class="alignleft">
+                <button id="readme">How does this work?</button>
+                <button id="feedback">Feedback</button>
+            </p>
+            <p class="alignright">
+                Programmed by Oz Anisman
+            </p>
+        </div>
+
+        <!--- <button id="settings">Settings</button> --->
+    </body>
+</html>
